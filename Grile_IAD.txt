@@ -1,0 +1,152 @@
+1. In modelul de integrare de tip Hub-and-Spoke cu adaptori complecsi, mesajele circula prin broker-ul central: (A)
+ a. Intr-un format canonic
+b. În formatul aplicației sursă
+c. Într-un format intermediar dependent de aplicația sursă și de cea destinație
+d. În formatul aplicației destinație
+2. Standardul WS-Addressing utilizeaza urmatorul mecanism de integrare:  (A)
+a. Identificatorul de corelatie
+b. Subscripția durabilă
+c. Filtrul e mesaje
+d. Agregatorul de mesaje
+3. In cadrul arhitecturilor de integrare de tip Hub-and-Spoke cu adaptori simpli, transformarea mesajelor este realizata de catre: (A)
+ a. Componenta de integrare a broker-ului central
+b. Adaptorii locali ai aplicației sursă
+c. Componenta de rutare a broker-ului central
+d. Adatorii locali ai aplicației destinație
+4. Tehnologia ORM utilizeaza următorul tip de punct de acces: (D)
+a. Consumator orientat pe evenimente
+b. Consumator prin interogare periodică
+c. Consumator selectiv 
+d. Asociator de structura
+5. Arhitectura de integrare cel mai putin invaziva este de tipul: (B)
+a. Hub-and-Spoke cu adaptori complecsi
+b. Hub-and-Spoke cu adaptori simpli
+c. Punct-la-punct parțial interconectată
+d. Punct-la-punct complet interconectată
+6. Daca dorim sa implementam o solutie de integrare generala cu costuri de implementare cat mai reduse, dar cu flexibilitate ridicata, care sa poata evolua usor, se recomanda sa ne bazam pe:  (C)
+a. Reimplementarea de tip monolit a nivelului de acces la aplicațiile de integrat
+b. Interfețe de programare între aplicațiile de integrat 
+c. Broker de integrare care sa comunice cu aplicatiile de integrat
+d. Produs software de tip magistrală de servicii configurat pentru aplicațiile de integrat
+7. Standardul WS-ReliableMessaging utilizeaza urmatorul mecanism de integrare: (C)
+a. Agregatorul de mesaje
+b. Identificatorul de corelație 
+c. Subscriptia durabila
+d. Filtrul de mesaje
+8. Pentru a putea deserializa obiecte cu ajutorul unei componente generice, clasa respectivă trebuie să aibă: (C)
+a. Constructor fără argumente
+b. Constructor public 
+c. Constructor
+d. Constructor public fără argumente
+9. Transformarea unui consumator in client tranzactional se realizeaza utilizand un interceptor AOP de tipul: (D)
+a. After
+b. Throwing
+c. Before 
+d. Around
+10. Poarta de mesaje se utilizeaza in combinatie cu un: (C)
+a. Consumator selectiv
+b. Consumator idempotent 
+c. Consumator prin interogare periodica
+d. Consumator concurent
+11. In arhitecturile de integrare orientate pe servicii, transparenta localizarii este asigurata cu ajutorul unei componente de tipul:  (A)
+a. Registru de servicii
+b. Stub
+c. Convertor de protocol
+d. Skeleton
+12. Intarzierea procesarii: (D)
+a. Poate fi utilizată pentru refacerea ordinii în care au fost trimise mesajele
+b. Poate fi utilizată ca mecanism de eșantionare a mesajelor
+c. Garantează un număr maxim de mesaje care pot fi procesate într-un interval de timp 
+d. Blocheaza avansul unui mesaj in ruta pentru un interval de timp
+13. Intarzierea procesarii se utilizează pentru: (D)
+a. Evitarea supraîncărcării punctelor de acces
+b. Procesarea paralelă a mesajelor
+c. Repetarea mesajelor 
+d. Completarea unui mesaj agregat
+14. Pentru integrarea aplicațiilor distribuite în Internet se recomandă utilizarea următoarei tehnologii suport: (D)
+a. Baze de date partajate
+b. Fișiere partajate
+c. Apelul de metode la distanță 
+d. Schimbul de mesaje
+15. Tehnologia JAXB utilizează următorul tip de punct de acces: (C)
+a. Consumator prin interogare periodică
+b. Consumator orientat pe evenimente 
+c. Asociator de structura
+d. Consumator selectiv
+16. Pentru eliminare mesajelor duplicate se recomanda utilizarea unui procesator de tipul: (D)
+a. Agregator de mesaje
+b. Sortare de mesaje
+c. Filtru de mesaje 
+d. Consumator idempotent
+17. Incetinirea procesarii se utilizeaza pentru: (B)
+a. Resincronizarea fluxurilor de mesaje 
+b. Evitarea supraincarcarii punctelor de acces
+c. Completarea unui mesaj agregat
+d. Optimizarea încărcării
+18. Cozile de mesaje distribuite utilizeaza: (D)
+a. Canale care garantează livrarea
+b. Canale de tip punct terminal
+c. Canale de tip punct-la-punct 
+d. Canale de tip subscriere si notificare
+19. Un dispecerizator de mesaj se utilizează în combinație cu un: (C)
+a. Consumator selectiv
+b. Consumator orientat pe evenimente 
+c. Consumator concurent
+d. Consumator prin interogare periodică
+20. Pentru introducerea în ruta de integrare a unei secvențe dinamice în funcție de mesajele de intrare se utilizează: (D)
+a. Filtrarea mesajelor
+b. Rutarea în funcție de conținut
+c. Lista destinatarilor 
+d. Transferul controlului
+21. Apelurile SOAP cu rutare WS-Addressing de tip anonymous utilizeaza: (D)
+a. Canale asincrone punct-la-multipunct bidirecționale
+b. Canale asincrone punct-multipunct unidirecționale
+c. Canale sincrone punct-la-punct unidirecționale 
+d. Canale asincrone punct-la-punct bidirecțional
+22. Invocare dinamica a metodelor prin Reflection utilizeaza: (B)
+a. Poarta de mesaje 
+b. Activatorul de serviciu
+c. Subscripția durabilă
+d. Magistrala de mesaj
+23. Diviziunea mesajelor este utilizată de către procesatorul:  (A)
+a. Recuperarea continutului
+b. Împrăștiere-readunare
+c. Îmbogățirea conținutului
+d. Filtrarea conținutului
+24. Pentru a implementa un consumator selectiv se poate utiliza: (B)
+a. Lista destinatarilor 
+b. Filtru de mesaje
+c. Rutarea în funcție de conținut
+d. Distribuția multiplă
+25. Cea mai mare transparență a localizării serviciilor este asigurată de arhitectura de integrare de tip: (D)
+a. Hub-and-Spoke cu adaptori complecși
+b. Punct-la-punct
+c. Hub-and-Spoke cu adaptori simpli 
+d. Enterprise Service Bus
+26. Intarzierea procesarii se utilizeaza pentru: (D)
+a. repetarea mesajelor
+b. evitarea supraincarcarii punctelor de acces
+c. procesarea paralela a mesajelor 
+d. completarea unui mesaj agregat
+
+--------------RASPUNS DESCHIS------------
+1. Cum se realizeaza compunerea mesajelor cu ajutorul procesatorului de agregare?
+Raspuns:
+Compunerea mesajelor se realizeaza prin gruparea acestora pe baza unei expresii de corelatie, stabilirea conditiei de completitudine a secventei de mesaje si aplicarea unui algoritm de agregare care combina mesajele cu aceeasi cheie de corelatie intr-un singur mesaj rezultat.
+________________________________________
+2. Cum pot fi atasate informatii de context de catre un procesator astfel incat sa poata fi accesate de catre alt procesator executat ulterior in cadrul rutei de integrare?
+Raspuns:
+Informatiile de context sunt atasate in mesaj, de regula in antetul acestuia sau in contextul exchange-ului, astfel incat procesatoarele executate ulterior in ruta sa le poata accesa si utiliza.
+________________________________________
+3. Ce fel de punct de acces implementeaza componenta server care trateaza executia unui serviciu apelat la distanta din client?
+Raspuns:
+Componenta server implementeaza un punct de acces de tip consumator.
+________________________________________
+4. Ce fel de punct de acces implementeaza componenta client care permite consumarea intr-o maniera transparenta a unui serviciu la distanta?
+Raspuns:
+Componenta client implementeaza un punct de acces de tip producator.
+________________________________________
+5. Cum se realizeaza compunerea mesajelor cu ajutorul unei strategii de imbogatire?
+Raspuns:
+Compunerea mesajelor se realizeaza prin adaugarea de informatii suplimentare din surse externe la mesajul initial procesat.
+
